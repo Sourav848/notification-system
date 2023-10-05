@@ -1,8 +1,10 @@
-package com.git.notificationsystem.services;
+package com.git.notificationsystem.services.handler;
 
 import com.git.notificationsystem.Model.NotificationRequest;
+import com.git.notificationsystem.services.INotificationHandler;
 
-public class SMSHandlerImpl implements INotificationHandler {
+public class WhatsAppHandlerImpl implements INotificationHandler {
+
 
     @Override
     public boolean send(NotificationRequest notificationRequest) {

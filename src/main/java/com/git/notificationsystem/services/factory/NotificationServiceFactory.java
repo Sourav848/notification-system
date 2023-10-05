@@ -1,7 +1,11 @@
-package com.git.notificationsystem.services;
+package com.git.notificationsystem.services.factory;
 
 import com.git.notificationsystem.Model.Mode;
 import com.git.notificationsystem.Model.NotificationRequest;
+import com.git.notificationsystem.services.INotificationHandler;
+import com.git.notificationsystem.services.handler.EmailHandlerImpl;
+import com.git.notificationsystem.services.handler.SMSHandlerImpl;
+import com.git.notificationsystem.services.handler.WhatsAppHandlerImpl;
 import org.springframework.stereotype.Component;
 
 @Component

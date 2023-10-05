@@ -1,7 +1,10 @@
-package com.git.notificationsystem.services;
+package com.git.notificationsystem.services.impl;
 
 import com.git.notificationsystem.Model.*;
 import com.git.notificationsystem.Repository.INotificationRepository;
+import com.git.notificationsystem.services.INotificationHandler;
+import com.git.notificationsystem.services.INotificationService;
+import com.git.notificationsystem.services.factory.NotificationServiceFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

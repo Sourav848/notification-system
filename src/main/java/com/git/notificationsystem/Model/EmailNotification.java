@@ -2,7 +2,7 @@ package com.git.notificationsystem.Model;
 
 import java.util.List;
 
-public class EmailNotification extends Notification {
+public class EmailNotification {
 
     String mode = String.valueOf(Mode.SMS);
     List<String> to;
